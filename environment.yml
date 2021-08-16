@@ -1,0 +1,25 @@
+name: donerf
+channels:
+  - pytorch
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.6.8
+  - pytorch=0.4.1
+  - torchvision=0.2.1
+  - opencv=3.3.1
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - imageio
+    - imageio-ffmpeg
+    - configargparse
+    - pillow
+    - pyrtools
+    - ptflops
+    - pyquaternion
+    - trimesh
+    - open3d
+
